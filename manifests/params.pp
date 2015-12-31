@@ -4,7 +4,7 @@
 # It sets variables according to platform.
 #
 class riak::params {
-  $version             = 'present' # setting to latest could result in unplanned upgrades
+  $version             = '2.1.1' # setting to latest could result in unplanned upgrades
   $manage_repo         = true
   $manage_package      = true
   $riak_conf           = '/etc/riak/riak.conf'
